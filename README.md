@@ -16,7 +16,9 @@ gcc main.c -Wall -o main.bin
 
 Uso
 ===
-./main.c fuente.txt output.txt
+./main.bin fuente.txt output.txt
+
+Sino se especifica el archivo de entrada se pipea al stdout.
 
 Ayuda
 =====
